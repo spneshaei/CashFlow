@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2A7E00F28337A7100474E4E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E00E28337A7100474E4E /* Tests_iOS.swift */; };
+		C2A7E01128337A7100474E4E /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E01028337A7100474E4E /* Tests_iOSLaunchTests.swift */; };
+		C2A7E01B28337A7100474E4E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E01A28337A7100474E4E /* Tests_macOS.swift */; };
+		C2A7E01D28337A7100474E4E /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E01C28337A7100474E4E /* Tests_macOSLaunchTests.swift */; };
+		C2A7E01E28337A7100474E4E /* CashFlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2A7DFF328337A7000474E4E /* CashFlow.xcdatamodeld */; };
+		C2A7E01F28337A7100474E4E /* CashFlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2A7DFF328337A7000474E4E /* CashFlow.xcdatamodeld */; };
+		C2A7E02028337A7100474E4E /* CashFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7DFF528337A7000474E4E /* CashFlowApp.swift */; };
+		C2A7E02128337A7100474E4E /* CashFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7DFF528337A7000474E4E /* CashFlowApp.swift */; };
+		C2A7E02228337A7100474E4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7DFF628337A7000474E4E /* ContentView.swift */; };
+		C2A7E02328337A7100474E4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7DFF628337A7000474E4E /* ContentView.swift */; };
+		C2A7E02428337A7100474E4E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7DFF728337A7000474E4E /* Persistence.swift */; };
+		C2A7E02528337A7100474E4E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7DFF728337A7000474E4E /* Persistence.swift */; };
+		C2A7E02628337A7100474E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A7DFF828337A7100474E4E /* Assets.xcassets */; };
+		C2A7E02728337A7100474E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A7DFF828337A7100474E4E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2A7E00B28337A7100474E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A7DFEE28337A7000474E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A7DFFC28337A7100474E4E;
+			remoteInfo = "CashFlow (iOS)";
+		};
+		C2A7E01728337A7100474E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A7DFEE28337A7000474E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A7E00228337A7100474E4E;
+			remoteInfo = "CashFlow (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2A7DFF428337A7000474E4E /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		C2A7DFF528337A7000474E4E /* CashFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlowApp.swift; sourceTree = "<group>"; };
+		C2A7DFF628337A7000474E4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2A7DFF728337A7000474E4E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C2A7DFF828337A7100474E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2A7DFFD28337A7100474E4E /* CashFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A7E00328337A7100474E4E /* CashFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A7E00528337A7100474E4E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C2A7E00A28337A7100474E4E /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A7E00E28337A7100474E4E /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		C2A7E01028337A7100474E4E /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		C2A7E01628337A7100474E4E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A7E01A28337A7100474E4E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		C2A7E01C28337A7100474E4E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2A7DFFA28337A7100474E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E00028337A7100474E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E00728337A7100474E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E01328337A7100474E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2A7DFED28337A7000474E4E = {
+			isa = PBXGroup;
+			children = (
+				C2A7DFF228337A7000474E4E /* Shared */,
+				C2A7E00428337A7100474E4E /* macOS */,
+				C2A7E00D28337A7100474E4E /* Tests iOS */,
+				C2A7E01928337A7100474E4E /* Tests macOS */,
+				C2A7DFFE28337A7100474E4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2A7DFF228337A7000474E4E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7DFF528337A7000474E4E /* CashFlowApp.swift */,
+				C2A7DFF628337A7000474E4E /* ContentView.swift */,
+				C2A7DFF728337A7000474E4E /* Persistence.swift */,
+				C2A7DFF828337A7100474E4E /* Assets.xcassets */,
+				C2A7DFF328337A7000474E4E /* CashFlow.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C2A7DFFE28337A7100474E4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7DFFD28337A7100474E4E /* CashFlow.app */,
+				C2A7E00328337A7100474E4E /* CashFlow.app */,
+				C2A7E00A28337A7100474E4E /* Tests iOS.xctest */,
+				C2A7E01628337A7100474E4E /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2A7E00428337A7100474E4E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7E00528337A7100474E4E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		C2A7E00D28337A7100474E4E /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7E00E28337A7100474E4E /* Tests_iOS.swift */,
+				C2A7E01028337A7100474E4E /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		C2A7E01928337A7100474E4E /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7E01A28337A7100474E4E /* Tests_macOS.swift */,
+				C2A7E01C28337A7100474E4E /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2A7DFFC28337A7100474E4E /* CashFlow (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A7E02A28337A7100474E4E /* Build configuration list for PBXNativeTarget "CashFlow (iOS)" */;
+			buildPhases = (
+				C2A7DFF928337A7100474E4E /* Sources */,
+				C2A7DFFA28337A7100474E4E /* Frameworks */,
+				C2A7DFFB28337A7100474E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CashFlow (iOS)";
+			productName = "CashFlow (iOS)";
+			productReference = C2A7DFFD28337A7100474E4E /* CashFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2A7E00228337A7100474E4E /* CashFlow (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A7E02D28337A7100474E4E /* Build configuration list for PBXNativeTarget "CashFlow (macOS)" */;
+			buildPhases = (
+				C2A7DFFF28337A7100474E4E /* Sources */,
+				C2A7E00028337A7100474E4E /* Frameworks */,
+				C2A7E00128337A7100474E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CashFlow (macOS)";
+			productName = "CashFlow (macOS)";
+			productReference = C2A7E00328337A7100474E4E /* CashFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2A7E00928337A7100474E4E /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A7E03028337A7100474E4E /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				C2A7E00628337A7100474E4E /* Sources */,
+				C2A7E00728337A7100474E4E /* Frameworks */,
+				C2A7E00828337A7100474E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2A7E00C28337A7100474E4E /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = C2A7E00A28337A7100474E4E /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C2A7E01528337A7100474E4E /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A7E03328337A7100474E4E /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				C2A7E01228337A7100474E4E /* Sources */,
+				C2A7E01328337A7100474E4E /* Frameworks */,
+				C2A7E01428337A7100474E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2A7E01828337A7100474E4E /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = C2A7E01628337A7100474E4E /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2A7DFEE28337A7000474E4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C2A7DFFC28337A7100474E4E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C2A7E00228337A7100474E4E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C2A7E00928337A7100474E4E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C2A7DFFC28337A7100474E4E;
+					};
+					C2A7E01528337A7100474E4E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C2A7E00228337A7100474E4E;
+					};
+				};
+			};
+			buildConfigurationList = C2A7DFF128337A7000474E4E /* Build configuration list for PBXProject "CashFlow" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2A7DFED28337A7000474E4E;
+			productRefGroup = C2A7DFFE28337A7100474E4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A7DFFC28337A7100474E4E /* CashFlow (iOS) */,
+				C2A7E00228337A7100474E4E /* CashFlow (macOS) */,
+				C2A7E00928337A7100474E4E /* Tests iOS */,
+				C2A7E01528337A7100474E4E /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2A7DFFB28337A7100474E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7E02628337A7100474E4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E00128337A7100474E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7E02728337A7100474E4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E00828337A7100474E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E01428337A7100474E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2A7DFF928337A7100474E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7E02028337A7100474E4E /* CashFlowApp.swift in Sources */,
+				C2A7E02428337A7100474E4E /* Persistence.swift in Sources */,
+				C2A7E01E28337A7100474E4E /* CashFlow.xcdatamodeld in Sources */,
+				C2A7E02228337A7100474E4E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7DFFF28337A7100474E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7E02128337A7100474E4E /* CashFlowApp.swift in Sources */,
+				C2A7E02528337A7100474E4E /* Persistence.swift in Sources */,
+				C2A7E01F28337A7100474E4E /* CashFlow.xcdatamodeld in Sources */,
+				C2A7E02328337A7100474E4E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E00628337A7100474E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7E01128337A7100474E4E /* Tests_iOSLaunchTests.swift in Sources */,
+				C2A7E00F28337A7100474E4E /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E01228337A7100474E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7E01D28337A7100474E4E /* Tests_macOSLaunchTests.swift in Sources */,
+				C2A7E01B28337A7100474E4E /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2A7E00C28337A7100474E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A7DFFC28337A7100474E4E /* CashFlow (iOS) */;
+			targetProxy = C2A7E00B28337A7100474E4E /* PBXContainerItemProxy */;
+		};
+		C2A7E01828337A7100474E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A7E00228337A7100474E4E /* CashFlow (macOS) */;
+			targetProxy = C2A7E01728337A7100474E4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2A7E02828337A7100474E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2A7E02928337A7100474E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C2A7E02B28337A7100474E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.CashFlow;
+				PRODUCT_NAME = CashFlow;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2A7E02C28337A7100474E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.CashFlow;
+				PRODUCT_NAME = CashFlow;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2A7E02E28337A7100474E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.CashFlow;
+				PRODUCT_NAME = CashFlow;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C2A7E02F28337A7100474E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.CashFlow;
+				PRODUCT_NAME = CashFlow;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C2A7E03128337A7100474E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CashFlow (iOS)";
+			};
+			name = Debug;
+		};
+		C2A7E03228337A7100474E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CashFlow (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2A7E03428337A7100474E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CashFlow (macOS)";
+			};
+			name = Debug;
+		};
+		C2A7E03528337A7100474E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CashFlow (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2A7DFF128337A7000474E4E /* Build configuration list for PBXProject "CashFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7E02828337A7100474E4E /* Debug */,
+				C2A7E02928337A7100474E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A7E02A28337A7100474E4E /* Build configuration list for PBXNativeTarget "CashFlow (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7E02B28337A7100474E4E /* Debug */,
+				C2A7E02C28337A7100474E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A7E02D28337A7100474E4E /* Build configuration list for PBXNativeTarget "CashFlow (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7E02E28337A7100474E4E /* Debug */,
+				C2A7E02F28337A7100474E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A7E03028337A7100474E4E /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7E03128337A7100474E4E /* Debug */,
+				C2A7E03228337A7100474E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A7E03328337A7100474E4E /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7E03428337A7100474E4E /* Debug */,
+				C2A7E03528337A7100474E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2A7DFF328337A7000474E4E /* CashFlow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2A7DFF428337A7000474E4E /* Shared.xcdatamodel */,
+			);
+			currentVersion = C2A7DFF428337A7000474E4E /* Shared.xcdatamodel */;
+			path = CashFlow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2A7DFEE28337A7000474E4E /* Project object */;
+}
