@@ -13,11 +13,20 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-        }
+        let entityForTableName = NSEntityDescription.entity(forEntityName: "Item", in: viewContext)
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>()
+        let predicate = NSPredicate.init(format: "1 == 1")
+        fetchRequest.predicate = predicate
+        fetchRequest.entity = entityForTableName
         do {
+            let arrData = try viewContext.fetch(fetchRequest)
+            if arrData.count == 0 {
+                let newItem = Item(context: viewContext)
+                newItem.timestamp = Date()
+                newItem.amount = 0.0
+                newItem.notes = "Initial Value"
+                newItem.reason = "Initial Value"
+            }
             try viewContext.save()
         } catch {
             // Replace this implementation with code to handle the error appropriately.

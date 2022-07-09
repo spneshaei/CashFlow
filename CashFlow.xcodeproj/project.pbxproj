@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2141BC32833AEAA00F05D57 /* ItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2141BC22833AEAA00F05D57 /* ItemDetailsView.swift */; };
+		C2141BC42833AEAA00F05D57 /* ItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2141BC22833AEAA00F05D57 /* ItemDetailsView.swift */; };
+		C27E2E072837AB9400B8A04A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27E2E062837AB9400B8A04A /* CloudKit.framework */; };
+		C27E2E092837ABEA00B8A04A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27E2E082837ABEA00B8A04A /* CloudKit.framework */; };
+		C27E2E0C2837AC0E00B8A04A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27E2E0B2837AC0E00B8A04A /* CloudKit.framework */; };
+		C2848C6E2834ED7A003036C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2848C6D2834ED7A003036C0 /* Assets.xcassets */; };
+		C2848C742834ED7A003036C0 /* CashFlow W WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C2848C732834ED7A003036C0 /* CashFlow W WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2848C792834ED7A003036C0 /* CashFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2848C782834ED7A003036C0 /* CashFlowApp.swift */; };
+		C2848C7D2834ED7A003036C0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2848C7C2834ED7A003036C0 /* NotificationController.swift */; };
+		C2848C7F2834ED7A003036C0 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2848C7E2834ED7A003036C0 /* NotificationView.swift */; };
+		C2848C812834ED7A003036C0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2848C802834ED7A003036C0 /* ComplicationController.swift */; };
+		C2848C832834ED7B003036C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2848C822834ED7B003036C0 /* Assets.xcassets */; };
+		C2848C862834ED7B003036C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2848C852834ED7B003036C0 /* Preview Assets.xcassets */; };
+		C2848C922834ED7B003036C0 /* CashFlow_WTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2848C912834ED7B003036C0 /* CashFlow_WTests.swift */; };
+		C2848C9C2834ED7B003036C0 /* CashFlow_WUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2848C9B2834ED7B003036C0 /* CashFlow_WUITests.swift */; };
+		C2848C9E2834ED7B003036C0 /* CashFlow_WUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2848C9D2834ED7B003036C0 /* CashFlow_WUITestsLaunchTests.swift */; };
+		C2848CA12834ED7B003036C0 /* CashFlow W.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C2848C6B2834ED7A003036C0 /* CashFlow W.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2848CB02834EDB2003036C0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7DFF728337A7000474E4E /* Persistence.swift */; };
+		C2848CB12834EDB2003036C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7DFF628337A7000474E4E /* ContentView.swift */; };
+		C2848CB22834EDB2003036C0 /* ItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2141BC22833AEAA00F05D57 /* ItemDetailsView.swift */; };
+		C2848CB32834EDB4003036C0 /* CashFlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2A7DFF328337A7000474E4E /* CashFlow.xcdatamodeld */; };
 		C2A7E00F28337A7100474E4E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E00E28337A7100474E4E /* Tests_iOS.swift */; };
 		C2A7E01128337A7100474E4E /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E01028337A7100474E4E /* Tests_iOSLaunchTests.swift */; };
 		C2A7E01B28337A7100474E4E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E01A28337A7100474E4E /* Tests_macOS.swift */; };
@@ -24,6 +45,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C2848C752834ED7A003036C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A7DFEE28337A7000474E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2848C722834ED7A003036C0;
+			remoteInfo = "CashFlow W WatchKit Extension";
+		};
+		C2848C8E2834ED7B003036C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A7DFEE28337A7000474E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2848C722834ED7A003036C0;
+			remoteInfo = "CashFlow W WatchKit Extension";
+		};
+		C2848C982834ED7B003036C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A7DFEE28337A7000474E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2848C6A2834ED7A003036C0;
+			remoteInfo = "CashFlow W";
+		};
+		C2848C9F2834ED7B003036C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A7DFEE28337A7000474E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2848C6A2834ED7A003036C0;
+			remoteInfo = "CashFlow W";
+		};
 		C2A7E00B28337A7100474E4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C2A7DFEE28337A7000474E4E /* Project object */;
@@ -40,7 +89,55 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C2848CA22834ED7B003036C0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C2848CA12834ED7B003036C0 /* CashFlow W.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2848CA52834ED7B003036C0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C2848C742834ED7A003036C0 /* CashFlow W WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C2141BC22833AEAA00F05D57 /* ItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsView.swift; sourceTree = SOURCE_ROOT; };
+		C27E2E042837AA3F00B8A04A /* CashFlow (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CashFlow (iOS).entitlements"; sourceTree = "<group>"; };
+		C27E2E062837AB9400B8A04A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		C27E2E082837ABEA00B8A04A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		C27E2E0A2837AC0600B8A04A /* CashFlow W WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CashFlow W WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		C27E2E0B2837AC0E00B8A04A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2848C6B2834ED7A003036C0 /* CashFlow W.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CashFlow W.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2848C6D2834ED7A003036C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2848C732834ED7A003036C0 /* CashFlow W WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CashFlow W WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2848C782834ED7A003036C0 /* CashFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlowApp.swift; sourceTree = "<group>"; };
+		C2848C7A2834ED7A003036C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2848C7C2834ED7A003036C0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C2848C7E2834ED7A003036C0 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C2848C802834ED7A003036C0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C2848C822834ED7B003036C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2848C852834ED7B003036C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2848C872834ED7B003036C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2848C882834ED7B003036C0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C2848C8D2834ED7B003036C0 /* CashFlow WTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CashFlow WTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2848C912834ED7B003036C0 /* CashFlow_WTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlow_WTests.swift; sourceTree = "<group>"; };
+		C2848C972834ED7B003036C0 /* CashFlow WUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CashFlow WUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2848C9B2834ED7B003036C0 /* CashFlow_WUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlow_WUITests.swift; sourceTree = "<group>"; };
+		C2848C9D2834ED7B003036C0 /* CashFlow_WUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlow_WUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C2A7DFF428337A7000474E4E /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		C2A7DFF528337A7000474E4E /* CashFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlowApp.swift; sourceTree = "<group>"; };
 		C2A7DFF628337A7000474E4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,10 +155,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C2848C702834ED7A003036C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27E2E0C2837AC0E00B8A04A /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2848C8A2834ED7B003036C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2848C942834ED7B003036C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C2A7DFFA28337A7100474E4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27E2E072837AB9400B8A04A /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27E2E092837ABEA00B8A04A /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,20 +210,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C27E2E052837AB9400B8A04A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C27E2E0B2837AC0E00B8A04A /* CloudKit.framework */,
+				C27E2E082837ABEA00B8A04A /* CloudKit.framework */,
+				C27E2E062837AB9400B8A04A /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2848C6C2834ED7A003036C0 /* CashFlow W */ = {
+			isa = PBXGroup;
+			children = (
+				C2848C6D2834ED7A003036C0 /* Assets.xcassets */,
+			);
+			path = "CashFlow W";
+			sourceTree = "<group>";
+		};
+		C2848C772834ED7A003036C0 /* CashFlow W WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C27E2E0A2837AC0600B8A04A /* CashFlow W WatchKit Extension.entitlements */,
+				C2848C782834ED7A003036C0 /* CashFlowApp.swift */,
+				C2848C7A2834ED7A003036C0 /* ContentView.swift */,
+				C2848C7C2834ED7A003036C0 /* NotificationController.swift */,
+				C2848C7E2834ED7A003036C0 /* NotificationView.swift */,
+				C2848C802834ED7A003036C0 /* ComplicationController.swift */,
+				C2848C822834ED7B003036C0 /* Assets.xcassets */,
+				C2848C872834ED7B003036C0 /* Info.plist */,
+				C2848C882834ED7B003036C0 /* PushNotificationPayload.apns */,
+				C2848C842834ED7B003036C0 /* Preview Content */,
+			);
+			path = "CashFlow W WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C2848C842834ED7B003036C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2848C852834ED7B003036C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2848C902834ED7B003036C0 /* CashFlow WTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2848C912834ED7B003036C0 /* CashFlow_WTests.swift */,
+			);
+			path = "CashFlow WTests";
+			sourceTree = "<group>";
+		};
+		C2848C9A2834ED7B003036C0 /* CashFlow WUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2848C9B2834ED7B003036C0 /* CashFlow_WUITests.swift */,
+				C2848C9D2834ED7B003036C0 /* CashFlow_WUITestsLaunchTests.swift */,
+			);
+			path = "CashFlow WUITests";
+			sourceTree = "<group>";
+		};
 		C2A7DFED28337A7000474E4E = {
 			isa = PBXGroup;
 			children = (
+				C27E2E042837AA3F00B8A04A /* CashFlow (iOS).entitlements */,
 				C2A7DFF228337A7000474E4E /* Shared */,
 				C2A7E00428337A7100474E4E /* macOS */,
 				C2A7E00D28337A7100474E4E /* Tests iOS */,
 				C2A7E01928337A7100474E4E /* Tests macOS */,
+				C2848C6C2834ED7A003036C0 /* CashFlow W */,
+				C2848C772834ED7A003036C0 /* CashFlow W WatchKit Extension */,
+				C2848C902834ED7B003036C0 /* CashFlow WTests */,
+				C2848C9A2834ED7B003036C0 /* CashFlow WUITests */,
 				C2A7DFFE28337A7100474E4E /* Products */,
+				C27E2E052837AB9400B8A04A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C2A7DFF228337A7000474E4E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C2141BC22833AEAA00F05D57 /* ItemDetailsView.swift */,
 				C2A7DFF528337A7000474E4E /* CashFlowApp.swift */,
 				C2A7DFF628337A7000474E4E /* ContentView.swift */,
 				C2A7DFF728337A7000474E4E /* Persistence.swift */,
@@ -119,6 +307,10 @@
 				C2A7E00328337A7100474E4E /* CashFlow.app */,
 				C2A7E00A28337A7100474E4E /* Tests iOS.xctest */,
 				C2A7E01628337A7100474E4E /* Tests macOS.xctest */,
+				C2848C6B2834ED7A003036C0 /* CashFlow W.app */,
+				C2848C732834ED7A003036C0 /* CashFlow W WatchKit Extension.appex */,
+				C2848C8D2834ED7B003036C0 /* CashFlow WTests.xctest */,
+				C2848C972834ED7B003036C0 /* CashFlow WUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +344,76 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C2848C6A2834ED7A003036C0 /* CashFlow W */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2848CAD2834ED7B003036C0 /* Build configuration list for PBXNativeTarget "CashFlow W" */;
+			buildPhases = (
+				C2848C692834ED7A003036C0 /* Resources */,
+				C2848CA52834ED7B003036C0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2848C762834ED7A003036C0 /* PBXTargetDependency */,
+			);
+			name = "CashFlow W";
+			productName = "CashFlow W";
+			productReference = C2848C6B2834ED7A003036C0 /* CashFlow W.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C2848C722834ED7A003036C0 /* CashFlow W WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2848CAC2834ED7B003036C0 /* Build configuration list for PBXNativeTarget "CashFlow W WatchKit Extension" */;
+			buildPhases = (
+				C2848C6F2834ED7A003036C0 /* Sources */,
+				C2848C702834ED7A003036C0 /* Frameworks */,
+				C2848C712834ED7A003036C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CashFlow W WatchKit Extension";
+			productName = "CashFlow W WatchKit Extension";
+			productReference = C2848C732834ED7A003036C0 /* CashFlow W WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		C2848C8C2834ED7B003036C0 /* CashFlow WTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2848CAE2834ED7B003036C0 /* Build configuration list for PBXNativeTarget "CashFlow WTests" */;
+			buildPhases = (
+				C2848C892834ED7B003036C0 /* Sources */,
+				C2848C8A2834ED7B003036C0 /* Frameworks */,
+				C2848C8B2834ED7B003036C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2848C8F2834ED7B003036C0 /* PBXTargetDependency */,
+			);
+			name = "CashFlow WTests";
+			productName = "CashFlow WTests";
+			productReference = C2848C8D2834ED7B003036C0 /* CashFlow WTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2848C962834ED7B003036C0 /* CashFlow WUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2848CAF2834ED7B003036C0 /* Build configuration list for PBXNativeTarget "CashFlow WUITests" */;
+			buildPhases = (
+				C2848C932834ED7B003036C0 /* Sources */,
+				C2848C942834ED7B003036C0 /* Frameworks */,
+				C2848C952834ED7B003036C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2848C992834ED7B003036C0 /* PBXTargetDependency */,
+			);
+			name = "CashFlow WUITests";
+			productName = "CashFlow WUITests";
+			productReference = C2848C972834ED7B003036C0 /* CashFlow WUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		C2A7DFFC28337A7100474E4E /* CashFlow (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2A7E02A28337A7100474E4E /* Build configuration list for PBXNativeTarget "CashFlow (iOS)" */;
@@ -159,10 +421,12 @@
 				C2A7DFF928337A7100474E4E /* Sources */,
 				C2A7DFFA28337A7100474E4E /* Frameworks */,
 				C2A7DFFB28337A7100474E4E /* Resources */,
+				C2848CA22834ED7B003036C0 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C2848CA02834ED7B003036C0 /* PBXTargetDependency */,
 			);
 			name = "CashFlow (iOS)";
 			productName = "CashFlow (iOS)";
@@ -232,6 +496,20 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					C2848C6A2834ED7A003036C0 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C2848C722834ED7A003036C0 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C2848C8C2834ED7B003036C0 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C2848C722834ED7A003036C0;
+					};
+					C2848C962834ED7B003036C0 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C2848C6A2834ED7A003036C0;
+					};
 					C2A7DFFC28337A7100474E4E = {
 						CreatedOnToolsVersion = 13.3;
 					};
@@ -265,11 +543,46 @@
 				C2A7E00228337A7100474E4E /* CashFlow (macOS) */,
 				C2A7E00928337A7100474E4E /* Tests iOS */,
 				C2A7E01528337A7100474E4E /* Tests macOS */,
+				C2848C6A2834ED7A003036C0 /* CashFlow W */,
+				C2848C722834ED7A003036C0 /* CashFlow W WatchKit Extension */,
+				C2848C8C2834ED7B003036C0 /* CashFlow WTests */,
+				C2848C962834ED7B003036C0 /* CashFlow WUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C2848C692834ED7A003036C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2848C6E2834ED7A003036C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2848C712834ED7A003036C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2848C862834ED7B003036C0 /* Preview Assets.xcassets in Resources */,
+				C2848C832834ED7B003036C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2848C8B2834ED7B003036C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2848C952834ED7B003036C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C2A7DFFB28337A7100474E4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,6 +616,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C2848C6F2834ED7A003036C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2848CB22834EDB2003036C0 /* ItemDetailsView.swift in Sources */,
+				C2848C7D2834ED7A003036C0 /* NotificationController.swift in Sources */,
+				C2848C812834ED7A003036C0 /* ComplicationController.swift in Sources */,
+				C2848CB12834EDB2003036C0 /* ContentView.swift in Sources */,
+				C2848CB32834EDB4003036C0 /* CashFlow.xcdatamodeld in Sources */,
+				C2848C792834ED7A003036C0 /* CashFlowApp.swift in Sources */,
+				C2848C7F2834ED7A003036C0 /* NotificationView.swift in Sources */,
+				C2848CB02834EDB2003036C0 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2848C892834ED7B003036C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2848C922834ED7B003036C0 /* CashFlow_WTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2848C932834ED7B003036C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2848C9C2834ED7B003036C0 /* CashFlow_WUITests.swift in Sources */,
+				C2848C9E2834ED7B003036C0 /* CashFlow_WUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C2A7DFF928337A7100474E4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,6 +655,7 @@
 				C2A7E02028337A7100474E4E /* CashFlowApp.swift in Sources */,
 				C2A7E02428337A7100474E4E /* Persistence.swift in Sources */,
 				C2A7E01E28337A7100474E4E /* CashFlow.xcdatamodeld in Sources */,
+				C2141BC32833AEAA00F05D57 /* ItemDetailsView.swift in Sources */,
 				C2A7E02228337A7100474E4E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +667,7 @@
 				C2A7E02128337A7100474E4E /* CashFlowApp.swift in Sources */,
 				C2A7E02528337A7100474E4E /* Persistence.swift in Sources */,
 				C2A7E01F28337A7100474E4E /* CashFlow.xcdatamodeld in Sources */,
+				C2141BC42833AEAA00F05D57 /* ItemDetailsView.swift in Sources */,
 				C2A7E02328337A7100474E4E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +693,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C2848C762834ED7A003036C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2848C722834ED7A003036C0 /* CashFlow W WatchKit Extension */;
+			targetProxy = C2848C752834ED7A003036C0 /* PBXContainerItemProxy */;
+		};
+		C2848C8F2834ED7B003036C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2848C722834ED7A003036C0 /* CashFlow W WatchKit Extension */;
+			targetProxy = C2848C8E2834ED7B003036C0 /* PBXContainerItemProxy */;
+		};
+		C2848C992834ED7B003036C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2848C6A2834ED7A003036C0 /* CashFlow W */;
+			targetProxy = C2848C982834ED7B003036C0 /* PBXContainerItemProxy */;
+		};
+		C2848CA02834ED7B003036C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2848C6A2834ED7A003036C0 /* CashFlow W */;
+			targetProxy = C2848C9F2834ED7B003036C0 /* PBXContainerItemProxy */;
+		};
 		C2A7E00C28337A7100474E4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C2A7DFFC28337A7100474E4E /* CashFlow (iOS) */;
@@ -359,6 +726,206 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		C2848CA32834ED7B003036C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CashFlow_W_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "CashFlow W";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.spneshaei.CashFlow;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.CashFlow.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C2848CA42834ED7B003036C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CashFlow_W_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "CashFlow W";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.spneshaei.CashFlow;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.CashFlow.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		C2848CA62834ED7B003036C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "CashFlow W WatchKit Extension/CashFlow W WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashFlow W WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CashFlow W WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CashFlow W WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.CashFlow.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C2848CA72834ED7B003036C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "CashFlow W WatchKit Extension/CashFlow W WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashFlow W WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CashFlow W WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CashFlow W WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spneshaei.CashFlow.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		C2848CA82834ED7B003036C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.CashFlow.CashFlow-WTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashFlow W WatchKit Extension.appex/CashFlow W WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C2848CA92834ED7B003036C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.CashFlow.CashFlow-WTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashFlow W WatchKit Extension.appex/CashFlow W WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		C2848CAA2834ED7B003036C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.CashFlow.CashFlow-WUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CashFlow W";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C2848CAB2834ED7B003036C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44TVYQ8RAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spneshaei.CashFlow.CashFlow-WUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CashFlow W";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
 		C2A7E02828337A7100474E4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -473,6 +1040,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CashFlow (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44TVYQ8RAX;
@@ -503,6 +1071,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CashFlow (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44TVYQ8RAX;
@@ -667,6 +1236,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C2848CAC2834ED7B003036C0 /* Build configuration list for PBXNativeTarget "CashFlow W WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2848CA62834ED7B003036C0 /* Debug */,
+				C2848CA72834ED7B003036C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2848CAD2834ED7B003036C0 /* Build configuration list for PBXNativeTarget "CashFlow W" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2848CA32834ED7B003036C0 /* Debug */,
+				C2848CA42834ED7B003036C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2848CAE2834ED7B003036C0 /* Build configuration list for PBXNativeTarget "CashFlow WTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2848CA82834ED7B003036C0 /* Debug */,
+				C2848CA92834ED7B003036C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2848CAF2834ED7B003036C0 /* Build configuration list for PBXNativeTarget "CashFlow WUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2848CAA2834ED7B003036C0 /* Debug */,
+				C2848CAB2834ED7B003036C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C2A7DFF128337A7000474E4E /* Build configuration list for PBXProject "CashFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
